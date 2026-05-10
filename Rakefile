@@ -1,7 +1,7 @@
-NAME = "game"
+NAME = "dino"
 MRBC = if RUBY_PLATFORM =~ /darwin/
          # mruby 3.3.0 is broken on intel mac
-         "~/research/mruby/bin/mrbc"
+         "mrbc"
        else
          "mrbc"
        end
